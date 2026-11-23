@@ -1,0 +1,24 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# SSH Keys
+*.pem
+*.key
+
+# Secrets
+.env
+credentials
+
+# Kubernetes
+kubeconfig
+
+# Linux
+*.log
+
+# Temporary files
+*.tmp
+
